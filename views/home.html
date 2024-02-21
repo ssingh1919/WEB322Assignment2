@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego Collection</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container mx-auto">
+            <a href="/" class="navbar-brand">Lego Collection</a>
+            <ul class="navbar-menu">
+                <li><a href="/about">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">Theme</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/lego/sets?theme=fire">Fire</a></li>
+                        <li><a href="/lego/sets?theme=hospital">Hospital</a></li>
+                        <li><a href="/lego/sets?theme=police">Police</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto">
+        <div class="hero">
+            <h1>Explore the Lego Collection</h1>
+            <a href="/lego/sets" class="btn">Explore Sets</a>
+        </div>
+        
+        <div class="grid grid-cols-3 gap-4">
+            <div class="card">
+                <img src="https://cdn.rebrickable.com/media/sets/6709-1.jpg" alt="Set 1">
+                <h2>Tribal Chief</h2>
+                <p>Name	Wheels Pack
+                    Released	2004
+                    Inventory	10 parts
+                    Theme	Racers > RC</p>
+                <a href="/lego/sets/6709-1" class="btn">View Set</a>
+            </div>
+            <div class="card">
+                <img src="https://cdn.rebrickable.com/media/sets/670F-1.jpg" alt="Set 1">
+                <h2>Wheels Pack</h2>
+                <p>Name	Tribal Chief
+                    Released	1997
+                    Inventory	15 parts
+                    Theme	Western</p>
+                <a href="/lego/sets/670F-1" class="btn">View Set</a>
+            </div>
+            <div class="card">
+                <img src="https://cdn.rebrickable.com/media/sets/6707-1.jpg" alt="Set 1">
+                <h2>Green Buggy</h2>
+                <p>Name	Green Buggy
+                    Released	2000
+                    Inventory	23 parts
+                    Theme	Town > Race
+                    </p>
+                <a href="/lego/sets/6707-1" class="btn">View Set</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
